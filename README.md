@@ -1,5 +1,3 @@
-### Video Tutorial: https://youtu.be/425N7n86QGw
-
 ## Environment setup:
 
 		conda create -n env_langchain1 python=3.10  
