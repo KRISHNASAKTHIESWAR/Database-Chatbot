@@ -1,3 +1,4 @@
+ #upgraded version
 import os
 import streamlit as st
 from langchain.chains import create_sql_query_chain
@@ -12,11 +13,11 @@ from textblob import TextBlob
 load_dotenv()
 
 # Database connection parameters for PostgreSQL
-db_user = "postgres"
-db_password = "pwd"
-db_host = "localhost"
-db_name = "alumni"
-db_port="5432"
+db_user = ""
+db_password = ""
+db_host = ""
+db_name = ""
+db_port=""
 
 
 engine = create_engine(f"postgresql+psycopg2://{db_user}:{db_password}@{db_host}:5432/{db_name}")
